@@ -43,7 +43,7 @@ brew install wget --with-iri
 brew install vim --with-override-system-vi
 brew install grep
 brew install openssh
-brew install screen
+# brew install screen
 # brew install homebrew/php/php56 --with-gmp
 
 # Install font tools.
@@ -80,7 +80,7 @@ brew install screen
 
 # Install other useful binaries.
 # brew install ack
-brew install dark-mode
+# brew install dark-mode
 #brew install exiv2
 brew install git
 brew install git-lfs
@@ -88,16 +88,16 @@ brew install imagemagick --with-webp
 # brew install lua
 # brew install lynx
 # brew install p7zip
-brew install pigz
+# brew install pigz
 # brew install pv
 # brew install rename
 # brew install rhino
 # brew install speedtest_cli
 # brew install ssh-copy-id
 # brew install testssl
-brew install tree
+# brew install tree
 # brew install vbindiff
-brew install webkit2png
+# brew install webkit2png
 # brew install zopfli
 
 # Remove outdated versions from the cellar.
