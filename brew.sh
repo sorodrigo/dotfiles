@@ -24,7 +24,7 @@ ln -s "${BREW_PREFIX}/bin/gsha256sum" "${BREW_PREFIX}/bin/sha256sum"
 brew install gnu-sed --with-default-names
 # Install a modern version of Bash.
 brew install bash
-brew install bash-completion@2-2.5
+brew install bash-completion@2
 
 # Switch to using brew-installed bash as default shell
 if ! fgrep -q "${BREW_PREFIX}/bin/bash" /etc/shells; then
