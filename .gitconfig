@@ -28,7 +28,7 @@
 	ca = !git add -A && git commit -av
 
 	# Switch to a branch, creating it if necessary
-	co = "!f() { git checkout -b \"$1\" 2> /dev/null || git checkout \"$1\"; }; f"
+	go = "!f() { git checkout -b \"$1\" 2> /dev/null || git checkout \"$1\"; }; f"
 
 	# checkout to branch
 	co = checkout
@@ -201,3 +201,7 @@
 [init]
 
 	templateDir = ~/.config/git/template/
+
+[user]
+	name = Rodrigo Solís
+	email = solis.ro@gmail.com
