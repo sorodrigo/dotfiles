@@ -97,5 +97,8 @@ brew install tree
 # brew install vbindiff
 # brew install zopfli
 
+# better git diffs
+brew install delta
+
 # Remove outdated versions from the cellar.
 brew cleanup
