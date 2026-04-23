@@ -8,11 +8,15 @@ function doIt() {
 	rsync --exclude ".git/" \
 		--exclude ".DS_Store" \
 		--exclude ".osx" \
+		--exclude ".bash_profile" \
+		--exclude ".bash_prompt" \
+		--exclude ".bashrc" \
+		--exclude "zsh/" \
 		--exclude "bootstrap.sh" \
 		--exclude "README.md" \
 		--exclude "LICENSE-MIT.txt" \
 		-avh --no-perms . ~;
-	source ~/.bash_profile;
+	zsh ./zsh/install.sh;
 }
 
 if [ "$1" == "--force" -o "$1" == "-f" ]; then
